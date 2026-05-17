@@ -3,71 +3,71 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://www.excursionbateaubiarritz.com/</loc>
+    <loc>https://excursionbateaubiarritz.com/</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.excursionbateaubiarritz.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.excursionbateaubiarritz.com/en.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://excursionbateaubiarritz.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://excursionbateaubiarritz.com/en.html"/>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/hero.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/hero.jpg</image:loc>
       <image:title>Excursion bateau Biarritz – vue drone bateau eaux turquoises côte basque</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-01.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-01.jpg</image:loc>
       <image:title>Apéritif dans l'eau côte basque excursion bateau Biarritz</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-02.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-02.jpg</image:loc>
       <image:title>Vue drone bateau sur les eaux turquoises côte basque Biarritz</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-03.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-03.jpg</image:loc>
       <image:title>Baignade en mer près du phare – excursion bateau Biarritz</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-04.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-04.jpg</image:loc>
       <image:title>Dauphin observé depuis le bateau côte basque Biarritz</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-05.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-05.jpg</image:loc>
       <image:title>Retour au coucher de soleil excursion bateau Biarritz</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-06.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-06.jpg</image:loc>
       <image:title>Crique secrète eaux turquoises accessible uniquement en bateau Biarritz</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://www.excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html</loc>
+    <loc>https://excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.excursionbateaubiarritz.com/dolphin-saint-jean-de-luz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://excursionbateaubiarritz.com/dolphin-saint-jean-de-luz.html"/>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-04.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-04.jpg</image:loc>
       <image:title>Dauphin observé depuis le bateau lors d'une excursion côte basque Biarritz</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://www.excursionbateaubiarritz.com/dolphin-saint-jean-de-luz.html</loc>
+    <loc>https://excursionbateaubiarritz.com/dolphin-saint-jean-de-luz.html</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.excursionbateaubiarritz.com/dolphin-saint-jean-de-luz.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://excursionbateaubiarritz.com/dolphin-saint-jean-de-luz.html"/>
     <image:image>
-      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-04.jpg</image:loc>
+      <image:loc>https://excursionbateaubiarritz.com/images/photo-04.jpg</image:loc>
       <image:title>Dolphin spotted from the boat during an excursion on the Basque Coast Biarritz</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://www.excursionbateaubiarritz.com/en.html</loc>
+    <loc>https://excursionbateaubiarritz.com/en.html</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.excursionbateaubiarritz.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.excursionbateaubiarritz.com/en.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://excursionbateaubiarritz.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://excursionbateaubiarritz.com/en.html"/>
   </url>
 </urlset>
