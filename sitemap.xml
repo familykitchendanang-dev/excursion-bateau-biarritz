@@ -39,6 +39,17 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.excursionbateaubiarritz.com/dauphin-saint-jean-de-luz.html"/>
+    <image:image>
+      <image:loc>https://www.excursionbateaubiarritz.com/images/photo-04.jpg</image:loc>
+      <image:title>Dauphin observé depuis le bateau lors d'une excursion côte basque Biarritz</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.excursionbateaubiarritz.com/en.html</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>weekly</changefreq>
