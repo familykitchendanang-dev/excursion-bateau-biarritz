@@ -172,7 +172,6 @@
   }
   </script>
 
-  <link rel="preload" as="image" href="./images/hero.jpg" fetchpriority="high" />
   <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -220,10 +219,22 @@
     .hero-bg {
       position: absolute;
       inset: 0;
-      background:
-        linear-gradient(180deg, rgba(10,77,107,0.55) 0%, rgba(10,77,107,0.85) 100%),
-        url('./images/hero.jpg') center 60%/cover no-repeat;
+      overflow: hidden;
+    }
+    .hero-bg img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 60%;
       animation: subtleZoom 20s ease-in-out infinite alternate;
+    }
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(10,77,107,0.55) 0%, rgba(10,77,107,0.85) 100%);
     }
 
     @keyframes subtleZoom {
@@ -643,7 +654,9 @@
   </div>
 
   <section class="hero" aria-label="Boat Trip Biarritz – Hero">
-  <div class="hero-bg" role="img" aria-label="Vue mer côte basque depuis un bateau"></div>
+  <div class="hero-bg">
+    <img src="./images/hero.jpg" alt="" aria-hidden="true" fetchpriority="high" decoding="async" width="640" height="837" />
+  </div>
 
   <div class="hero-content">
     <div class="hero-label">⚓ Professional Skipper · Biarritz</div>
