@@ -745,9 +745,9 @@
   <div class="hero-content">
     <div class="hero-label">⚓ Professional Skipper · Biarritz</div>
 
-    <h1>Boat Trip<br><em>Biarritz</em></h1>
+    <h1>Discover the <em>Basque Coast</em></h1>
     <p class="hero-sub">
-      Join our <strong>private boat trip from Biarritz</strong> — spend the day <strong>from 10:30 AM to 5:30 PM</strong> on a sea excursion along the Basque Coast between <strong>Biarritz</strong> and <strong>Saint-Jean-de-Luz</strong>. Secret coves only accessible by boat, turquoise waters, dolphin watching, local picnic, and snorkeling included.
+      <strong>Saint-Jean-de-Luz and its dramatic cliffs</strong>, the most paradisiacal coves, all the way to <strong>Fontarrabie</strong> — the hidden gems of the Basque coastline, only accessible by boat, with local picnic included.
     </p>
 
     <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:2rem;animation:fadeUp 1s ease 0.3s both;">
@@ -932,51 +932,18 @@
 </section>
 
 
-<!-- RESERVATION FORM EN -->
-<section id="formulaire" style="background:var(--sand);padding:5rem 1.5rem;" aria-label="Booking form">
+<!-- PAYMENT EN -->
+<section id="formulaire" style="background:var(--sand);padding:5rem 1.5rem;" aria-label="Booking payment">
   <div class="container" style="max-width:600px;margin:0 auto;">
     <h2 class="section-title">Book your <em>trip</em></h2>
     <div class="underline-gold"></div>
 
     <div style="background:#fff;border-radius:8px;padding:2rem;box-shadow:0 4px 20px rgba(10,77,107,0.1);">
 
-      <!-- First / Last name -->
-      <div style="display:flex;gap:1rem;margin-bottom:1.2rem;flex-wrap:wrap;">
-        <div style="flex:1;min-width:140px;">
-          <label style="color:var(--ocean);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:0.4rem;">First name</label>
-          <input type="text" id="resa-prenom" aria-label="First name" placeholder="Your first name" style="width:100%;padding:0.75rem 1rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;" />
-        </div>
-        <div style="flex:1;min-width:140px;">
-          <label style="color:var(--ocean);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:0.4rem;">Last name</label>
-          <input type="text" id="resa-nom" aria-label="Last name" placeholder="Your last name" style="width:100%;padding:0.75rem 1rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;" />
-        </div>
-      </div>
-
-      <!-- Email -->
-      <div style="margin-bottom:1.2rem;">
-        <label for="resa-email" style="color:var(--ocean);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:0.4rem;">✉️ Email address</label>
-        <input type="email" id="resa-email" placeholder="your@email.com" style="width:100%;padding:0.75rem 1rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;" />
-      </div>
-
-      <!-- Phone -->
-      <div style="margin-bottom:1.2rem;">
-        <label for="resa-tel" style="color:var(--ocean);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:0.4rem;">📞 Phone number</label>
-        <div style="display:flex;gap:0.5rem;">
-          <input type="text" id="resa-indicatif" aria-label="Country code" placeholder="+44" style="width:80px;padding:0.75rem 0.8rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;" />
-          <input type="tel" id="resa-tel" placeholder="Your number" style="flex:1;padding:0.75rem 1rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;" />
-        </div>
-      </div>
-
-      <!-- Date -->
-      <div style="margin-bottom:1.2rem;">
-        <label for="resa-date" style="color:var(--ocean);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:0.4rem;">📅 Preferred date</label>
-        <input type="date" id="resa-date" data-lang="en" style="width:100%;padding:0.75rem 1rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;color:#333;" onchange="updateTotal()" />
-      </div>
-
       <!-- Number of persons -->
       <div style="margin-bottom:1.5rem;">
         <label for="resa-persons" style="color:var(--ocean);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:0.4rem;">👥 Number of people</label>
-        <select id="resa-persons" aria-label="Nombre de personnes" style="width:100%;padding:0.75rem 1rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;color:#333;background:#fff;" onchange="updateTotal()">
+        <select id="resa-persons" aria-label="Number of people" style="width:100%;padding:0.75rem 1rem;border-radius:6px;border:1px solid #ddd;font-size:0.95rem;box-sizing:border-box;color:#333;background:#fff;" onchange="updateTotal()">
           <option value="1" selected>1 person</option>
           <option value="2">2 people</option>
           <option value="3">3 people</option>
@@ -988,50 +955,14 @@
         </select>
       </div>
 
-
-      <!-- Payment options -->
-      <div style="margin-bottom:1.5rem;">
-        <label style="color:var(--ocean);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:0.8rem;">💳 Payment method</label>
-        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-          <label style="flex:1;min-width:140px;cursor:pointer;">
-            <input type="radio" name="paiement" value="place" checked onchange="togglePaypal(this.value)" style="margin-right:0.4rem;" />
-            <span style="font-size:0.95rem;color:#333;">💵 Pay on the day</span>
-          </label>
-          <label style="flex:1;min-width:140px;cursor:pointer;">
-            <input type="radio" name="paiement" value="paypal" onchange="togglePaypal(this.value)" style="margin-right:0.4rem;" />
-            <span style="font-size:0.95rem;color:#333;">💳 Pay by PayPal</span>
-          </label>
-        </div>
-      </div>
-
       <!-- Total -->
       <div style="background:var(--ocean);border-radius:6px;padding:1rem 1.2rem;margin-bottom:1.5rem;display:flex;justify-content:space-between;align-items:center;">
         <span style="color:rgba(255,255,255,0.8);font-size:0.9rem;">Total (€145 × <span id="nb-pers">1</span> people)</span>
         <span id="total-price" style="color:var(--gold-light);font-size:1.5rem;font-weight:700;">€145</span>
       </div>
 
-      <!-- Pay on site button -->
-      <div id="btn-place">
-        <button onclick="submitReservation(event)" style="
-          display:flex;align-items:center;justify-content:center;gap:0.8rem;
-          background:var(--ocean);color:#fff;
-          padding:1rem 2rem;border-radius:50px;
-          font-size:1rem;font-weight:700;
-          border:none;cursor:pointer;width:100%;
-          box-shadow:0 4px 20px rgba(10,77,107,0.3);
-        ">
-          📩 Send my booking request
-        </button>
-        <div id="resa-success" style="display:none;color:green;text-align:center;margin-top:1rem;font-weight:700;">
-          ✅ Request sent! Jérôme will contact you to confirm.
-        </div>
-        <p style="color:#999;font-size:0.75rem;text-align:center;margin-top:0.8rem;">
-          Payment on the day · Jérôme will confirm your booking
-        </p>
-      </div>
-
-      <!-- PayPal button (hidden by default) -->
-      <div id="btn-paypal" style="display:none;">
+      <!-- PayPal button -->
+      <div id="btn-paypal">
         <a id="paypal-btn" href="#" target="_blank" rel="noopener" style="
           display:flex;align-items:center;justify-content:center;gap:0.8rem;
           background:var(--gold);color:#fff;
@@ -1040,7 +971,7 @@
           text-decoration:none;
           box-shadow:0 4px 20px rgba(201,147,58,0.4);
           text-align:center;
-        " onclick="return checkForm(event)">
+        ">
           💳 Pay and book via PayPal
         </a>
         <p style="color:#999;font-size:0.75rem;text-align:center;margin-top:0.8rem;">
@@ -1052,11 +983,6 @@
 </section>
 
 <script>
-const dateInput = document.getElementById('resa-date');
-const tomorrow = new Date();
-tomorrow.setDate(tomorrow.getDate() + 1);
-dateInput.min = tomorrow.toISOString().split('T')[0];
-dateInput.value = tomorrow.toISOString().split('T')[0];
 updateTotal();
 
 function updateTotal() {
@@ -1069,91 +995,8 @@ function updateTotal() {
 
 function buildPaypalLink() {
   const persons = parseInt(document.getElementById('resa-persons').value);
-  const total = persons * 145;
-  const date = document.getElementById('resa-date').value;
-  const dateFormatted = date ? new Date(date).toLocaleDateString('en-GB', {day:'numeric',month:'long',year:'numeric'}) : '';
-  const prenom = document.getElementById('resa-prenom').value;
-  const nom = document.getElementById('resa-nom').value;
-  const indicatif = document.getElementById('resa-indicatif').value;
-  const tel = document.getElementById('resa-tel').value;
-  const email = document.getElementById('resa-email').value;
-  const msg = encodeURIComponent(
-    'Booking: ' + prenom + ' ' + nom +
-    ' | Date: ' + dateFormatted +
-    ' | ' + persons + ' person' + (persons > 1 ? 's' : '') +
-    ' | Phone: ' + indicatif + ' ' + tel +
-    ' | Email: ' + email +
-    ' | Total: €' + total
-  );
-  document.getElementById('paypal-btn').href = 'https://www.paypal.com/ncp/payment/XLPEL2RP5BUHA?quantity=' + persons + '&custom=' + msg;
+  document.getElementById('paypal-btn').href = 'https://www.paypal.com/ncp/payment/XLPEL2RP5BUHA?quantity=' + persons;
 }
-
-function checkForm(e) {
-  const date = document.getElementById('resa-date').value;
-  const prenom = document.getElementById('resa-prenom').value.trim();
-  const nom = document.getElementById('resa-nom').value.trim();
-  const email = document.getElementById('resa-email').value.trim();
-  if (!date || !prenom || !nom || !email) {
-    e.preventDefault();
-    alert('Please fill in all required fields (first name, last name, email and date).');
-    return false;
-  }
-  buildPaypalLink();
-  return true;
-}
-
-
-function submitReservation(e) {
-  e.preventDefault();
-  const prenom = document.getElementById('resa-prenom').value.trim();
-  const nom = document.getElementById('resa-nom').value.trim();
-  const email = document.getElementById('resa-email').value.trim();
-  const date = document.getElementById('resa-date').value;
-  if (!prenom || !nom || !email || !date) {
-    alert('Please fill in all required fields (first name, last name, email and date).');
-    return;
-  }
-  const persons = document.getElementById('resa-persons').value;
-  const indicatif = document.getElementById('resa-indicatif').value;
-  const tel = document.getElementById('resa-tel').value;
-  const dateFormatted = new Date(date).toLocaleDateString('en-GB', {day:'numeric',month:'long',year:'numeric'});
-  const total = parseInt(persons) * 145;
-
-  const form = document.createElement('form');
-  form.method = 'POST';
-  form.action = 'https://formspree.io/f/xaqpdqaj';
-
-  const fields = {
-    prenom: prenom,
-    nom: nom,
-    email: email,
-    telephone: indicatif + ' ' + tel,
-    date: dateFormatted,
-    personnes: persons + ' person(s)',
-    total: '€' + total,
-    paiement: 'On site',
-    site: 'Excursion Bateau Biarritz'
-  };
-
-  for (const [key, value] of Object.entries(fields)) {
-    const input = document.createElement('input');
-    input.type = 'hidden';
-    input.name = key;
-    input.value = value;
-    form.appendChild(input);
-  }
-
-  document.body.appendChild(form);
-  form.submit();
-}
-
-function togglePaypal(val) {
-  document.getElementById('btn-paypal').style.display = val === 'paypal' ? 'block' : 'none';
-  document.getElementById('btn-place').style.display = val === 'place' ? 'block' : 'none';
-}
-document.querySelectorAll('#resa-prenom,#resa-nom,#resa-indicatif,#resa-tel,#resa-email').forEach(el => {
-  el.addEventListener('input', buildPaypalLink);
-});
 </script>
 
 <!-- AVIS GOOGLE -->
